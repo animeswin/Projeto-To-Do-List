@@ -1,0 +1,45 @@
+#form {
+  margin: 20px;
+}
+#tarefa {
+  padding: 10px;
+  margin: 10px;
+  font-size: 15px;
+  border: 1px solid gray;
+  border-radius: 5px;
+  margin-right: 10px;
+}
+#resultado {
+  margin-top: 20px;
+}
+.card {
+  display: flex;
+  align-items: center;
+  justify-content: space-between;
+  padding: 10px;
+  margin-bottom: 10px;
+  background-color: #f9f9f9;
+  border: 1px solid #ddd;
+  border-radius: 5px;
+}
+.card input[type="checkbox"] {
+  margin-right: 15px;
+}
+.card .span {
+  flex: 1;
+  font-size: 15px;
+}
+.card .button {
+  background-color: red;
+  color: white;
+  border: none;
+  padding: 5px 10px;
+  border-radius: 5px;
+  cursor: pointer;
+}
+.card .button:hover {
+  background-color: #c0392b;
+}
+.card .button:focus {
+  outline: none;
+}
